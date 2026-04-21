@@ -1,0 +1,34 @@
+[5.404s] Invoking command in '/workspaces/cmp3103/src/cmp3103m_ros2_code_fragments': PYTHONPATH=/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmp3103m_ros2_code_fragments build --build-base /workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/build install --record /workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log --single-version-externally-managed install_data
+[7.543s] running egg_info
+[7.562s] writing ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/PKG-INFO
+[7.588s] writing dependency_links to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/dependency_links.txt
+[7.599s] writing entry points to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/entry_points.txt
+[7.608s] writing requirements to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/requires.txt
+[7.615s] writing top-level names to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/top_level.txt
+[7.709s] reading manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'
+[8.050s] writing manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'
+[8.062s] running build
+[8.064s] running build_py
+[9.217s] running install
+[9.219s] running install_lib
+[12.264s] running install_data
+[12.324s] running install_egg_info
+[12.358s] removing '/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info' (and everything under it)
+[12.481s] Copying ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info
+[13.329s] running install_scripts
+[13.612s] Installing chat_receiver script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.691s] Installing chat_sender script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.730s] Installing colour_center script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.793s] Installing colour_chaser script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.842s] Installing colour_contours script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.939s] Installing colour_mask script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[13.987s] Installing colour_mask2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.028s] Installing colour_mover script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.056s] Installing move_square script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.098s] Installing opencv_bridge script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.122s] Installing roamer script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.141s] Installing task1 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.249s] Installing task2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.303s] Installing task3 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+[14.343s] writing list of installed files to '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log'
+[14.402s] Invoked command in '/workspaces/cmp3103/src/cmp3103m_ros2_code_fragments' returned '0': PYTHONPATH=/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cmp3103m_ros2_code_fragments build --build-base /workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/build install --record /workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log --single-version-externally-managed install_data

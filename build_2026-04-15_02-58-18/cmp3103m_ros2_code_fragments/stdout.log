@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/PKG-INFO
+writing dependency_links to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/dependency_links.txt
+writing entry points to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/entry_points.txt
+writing requirements to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/requires.txt
+writing top-level names to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/top_level.txt
+reading manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'
+writing manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info
+running install_scripts
+Installing chat_receiver script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing chat_sender script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_center script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_chaser script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_contours script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_mask script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_mask2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing colour_mover script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing move_square script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing opencv_bridge script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing roamer script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing task1 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing task2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+Installing task3 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments
+writing list of installed files to '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log'

@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.002381] (cmp3103m_ros2_code_fragments) JobQueued: {'identifier': 'cmp3103m_ros2_code_fragments', 'dependencies': OrderedDict()}
+[0.003270] (uol_tidybot) JobQueued: {'identifier': 'uol_tidybot', 'dependencies': OrderedDict()}
+[0.005155] (uol_tidybot_control) JobQueued: {'identifier': 'uol_tidybot_control', 'dependencies': OrderedDict([('uol_tidybot', '/workspaces/cmp3103/install/uol_tidybot')])}
+[0.005801] (uol_tidybot) JobStarted: {'identifier': 'uol_tidybot'}
+[0.092374] (-) TimerEvent: {}
+[0.194024] (-) TimerEvent: {}
+[0.199976] (cmp3103m_ros2_code_fragments) JobStarted: {'identifier': 'cmp3103m_ros2_code_fragments'}
+[0.294190] (-) TimerEvent: {}
+[0.396385] (-) TimerEvent: {}
+[0.498299] (-) TimerEvent: {}
+[0.601315] (-) TimerEvent: {}
+[0.702268] (-) TimerEvent: {}
+[0.803318] (-) TimerEvent: {}
+[0.904316] (-) TimerEvent: {}
+[1.005225] (-) TimerEvent: {}
+[1.106043] (-) TimerEvent: {}
+[1.206810] (-) TimerEvent: {}
+[1.311159] (-) TimerEvent: {}
+[1.412295] (-) TimerEvent: {}
+[1.513126] (-) TimerEvent: {}
+[1.615417] (-) TimerEvent: {}
+[1.716814] (-) TimerEvent: {}
+[1.818098] (-) TimerEvent: {}
+[1.919265] (-) TimerEvent: {}
+[2.020721] (-) TimerEvent: {}
+[2.121608] (-) TimerEvent: {}
+[2.222681] (-) TimerEvent: {}
+[2.323672] (-) TimerEvent: {}
+[2.425588] (-) TimerEvent: {}
+[2.526284] (-) TimerEvent: {}
+[2.626924] (-) TimerEvent: {}
+[2.729311] (-) TimerEvent: {}
+[2.830257] (-) TimerEvent: {}
+[2.931284] (-) TimerEvent: {}
+[3.032452] (-) TimerEvent: {}
+[3.133202] (-) TimerEvent: {}
+[3.234076] (-) TimerEvent: {}
+[3.334885] (-) TimerEvent: {}
+[3.437486] (-) TimerEvent: {}
+[3.538321] (-) TimerEvent: {}
+[3.640098] (-) TimerEvent: {}
+[3.741129] (-) TimerEvent: {}
+[3.842391] (-) TimerEvent: {}
+[3.943077] (-) TimerEvent: {}
+[4.043821] (-) TimerEvent: {}
+[4.147241] (-) TimerEvent: {}
+[4.248069] (-) TimerEvent: {}
+[4.349153] (-) TimerEvent: {}
+[4.450387] (-) TimerEvent: {}
+[4.551030] (-) TimerEvent: {}
+[4.651863] (-) TimerEvent: {}
+[4.753724] (-) TimerEvent: {}
+[4.854766] (-) TimerEvent: {}
+[4.955698] (-) TimerEvent: {}
+[5.056526] (-) TimerEvent: {}
+[5.157752] (-) TimerEvent: {}
+[5.258914] (-) TimerEvent: {}
+[5.359686] (-) TimerEvent: {}
+[5.460721] (-) TimerEvent: {}
+[5.561458] (-) TimerEvent: {}
+[5.573258] (cmp3103m_ros2_code_fragments) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cmp3103m_ros2_code_fragments', 'build', '--build-base', '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/build', 'install', '--record', '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/cmp3103/src/cmp3103m_ros2_code_fragments', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VGL_ISACTIVE': '1', 'HOSTNAME': '1e71a5f4d966', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lcas/install/limo_msgs/lib:/opt/ros/lcas/install/astra_camera/lib:/opt/ros/lcas/install/astra_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'ENTRY_POINT': '/opt/entrypoint.sh', 'HOME': '/home/ros', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a46dde3b-2693-4323-b89c-a8ed63841fb8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-dde347d7-fdc8-436d-acba-7a3f13c9c2f7.sock', 'COLCON_PREFIX_PATH': '/opt/ros/lcas/install:/opt/ros/humble', 'ROS_DISTRO': 'humble', 'VGL_PROBEGLX': '0', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d5dae3ef-c973-465f-95e2-5b4c3390999a.sock', 'VGL_DISPLAY': 'egl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'NOVNC_VERSION': '1.4.0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/ros/.local/bin:/opt/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/tmp/user/1001', 'WEBSOCKETIFY_VERSION': '0.10.0', 'VGL_COMPRESS': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6dde4a0ff128ab64.txt', 'LD_PRELOAD': '/usr/lib/libdlfaker.so:/usr/lib/libvglfaker.so', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros/.vscode-server/data/User/workspaceStorage/5ae3141ce4ac4267d7d5d5340b6fcc7a/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1001/vscode-git-103aa607e6.sock', 'TERM_PROGRAM': 'vscode', 'ROSDISTRO_INDEX_URL': 'https://raw.github.com/LCAS/rosdistro/master/index-v4.yaml', 'VGL_FPS': '25', 'AMENT_PREFIX_PATH': '/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/voice_control:/opt/ros/lcas/install/uol_tidybot_control:/opt/ros/lcas/install/uol_tidybot:/opt/ros/lcas/install/limo_speaker:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'ZENOH_BRIDGE_VERSION': '1.3.2', 'PWD': '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:/opt/ros/lcas/install/voice_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_speaker/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_gazebosim/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_msgs/lib/python3.10/site-packages:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:/opt/ros/lcas/install/astra_camera_msgs/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'VGL_WM': '1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'TVNC_VGL': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs'}, 'shell': False}
+[5.615039] (uol_tidybot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uol_tidybot', 'build', '--build-base', '/workspaces/cmp3103/build/uol_tidybot/build', 'install', '--record', '/workspaces/cmp3103/build/uol_tidybot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/cmp3103/src/uol_tidybot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VGL_ISACTIVE': '1', 'HOSTNAME': '1e71a5f4d966', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lcas/install/limo_msgs/lib:/opt/ros/lcas/install/astra_camera/lib:/opt/ros/lcas/install/astra_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'ENTRY_POINT': '/opt/entrypoint.sh', 'HOME': '/home/ros', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a46dde3b-2693-4323-b89c-a8ed63841fb8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-dde347d7-fdc8-436d-acba-7a3f13c9c2f7.sock', 'COLCON_PREFIX_PATH': '/opt/ros/lcas/install:/opt/ros/humble', 'ROS_DISTRO': 'humble', 'VGL_PROBEGLX': '0', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d5dae3ef-c973-465f-95e2-5b4c3390999a.sock', 'VGL_DISPLAY': 'egl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'NOVNC_VERSION': '1.4.0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/ros/.local/bin:/opt/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/tmp/user/1001', 'WEBSOCKETIFY_VERSION': '0.10.0', 'VGL_COMPRESS': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6dde4a0ff128ab64.txt', 'LD_PRELOAD': '/usr/lib/libdlfaker.so:/usr/lib/libvglfaker.so', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros/.vscode-server/data/User/workspaceStorage/5ae3141ce4ac4267d7d5d5340b6fcc7a/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1001/vscode-git-103aa607e6.sock', 'TERM_PROGRAM': 'vscode', 'ROSDISTRO_INDEX_URL': 'https://raw.github.com/LCAS/rosdistro/master/index-v4.yaml', 'VGL_FPS': '25', 'AMENT_PREFIX_PATH': '/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/voice_control:/opt/ros/lcas/install/uol_tidybot_control:/opt/ros/lcas/install/uol_tidybot:/opt/ros/lcas/install/limo_speaker:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'ZENOH_BRIDGE_VERSION': '1.3.2', 'PWD': '/workspaces/cmp3103/build/uol_tidybot', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/workspaces/cmp3103/build/uol_tidybot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:/opt/ros/lcas/install/voice_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_speaker/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_gazebosim/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_msgs/lib/python3.10/site-packages:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:/opt/ros/lcas/install/astra_camera_msgs/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'VGL_WM': '1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'TVNC_VGL': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs'}, 'shell': False}
+[5.714999] (-) TimerEvent: {}
+[5.819747] (-) TimerEvent: {}
+[5.924063] (-) TimerEvent: {}
+[6.029672] (-) TimerEvent: {}
+[6.132003] (-) TimerEvent: {}
+[6.239425] (-) TimerEvent: {}
+[6.340984] (-) TimerEvent: {}
+[6.441832] (-) TimerEvent: {}
+[6.543314] (-) TimerEvent: {}
+[6.644056] (-) TimerEvent: {}
+[6.744987] (-) TimerEvent: {}
+[6.846015] (-) TimerEvent: {}
+[6.946800] (-) TimerEvent: {}
+[7.048657] (-) TimerEvent: {}
+[7.149463] (-) TimerEvent: {}
+[7.250337] (-) TimerEvent: {}
+[7.351242] (-) TimerEvent: {}
+[7.452277] (-) TimerEvent: {}
+[7.553063] (-) TimerEvent: {}
+[7.655350] (-) TimerEvent: {}
+[7.743804] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running egg_info\n'}
+[7.755546] (-) TimerEvent: {}
+[7.762876] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'writing ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/PKG-INFO\n'}
+[7.789508] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'writing dependency_links to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/dependency_links.txt\n'}
+[7.800931] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'writing entry points to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/entry_points.txt\n'}
+[7.809639] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'writing requirements to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/requires.txt\n'}
+[7.816165] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'writing top-level names to ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/top_level.txt\n'}
+[7.821110] (uol_tidybot) StdoutLine: {'line': b'running egg_info\n'}
+[7.829358] (uol_tidybot) StdoutLine: {'line': b'writing ../../build/uol_tidybot/uol_tidybot.egg-info/PKG-INFO\n'}
+[7.843149] (uol_tidybot) StdoutLine: {'line': b'writing dependency_links to ../../build/uol_tidybot/uol_tidybot.egg-info/dependency_links.txt\n'}
+[7.855636] (-) TimerEvent: {}
+[7.856630] (uol_tidybot) StdoutLine: {'line': b'writing entry points to ../../build/uol_tidybot/uol_tidybot.egg-info/entry_points.txt\n'}
+[7.865848] (uol_tidybot) StdoutLine: {'line': b'writing requirements to ../../build/uol_tidybot/uol_tidybot.egg-info/requires.txt\n'}
+[7.872657] (uol_tidybot) StdoutLine: {'line': b'writing top-level names to ../../build/uol_tidybot/uol_tidybot.egg-info/top_level.txt\n'}
+[7.910143] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b"reading manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'\n"}
+[7.955870] (-) TimerEvent: {}
+[8.058071] (-) TimerEvent: {}
+[8.116074] (uol_tidybot) StdoutLine: {'line': b"reading manifest file '../../build/uol_tidybot/uol_tidybot.egg-info/SOURCES.txt'\n"}
+[8.158212] (-) TimerEvent: {}
+[8.248831] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b"writing manifest file '../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info/SOURCES.txt'\n"}
+[8.259902] (-) TimerEvent: {}
+[8.263312] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running build\n'}
+[8.265614] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running build_py\n'}
+[8.360034] (-) TimerEvent: {}
+[8.430927] (uol_tidybot) StdoutLine: {'line': b"writing manifest file '../../build/uol_tidybot/uol_tidybot.egg-info/SOURCES.txt'\n"}
+[8.448506] (uol_tidybot) StdoutLine: {'line': b'running build\n'}
+[8.451014] (uol_tidybot) StdoutLine: {'line': b'running build_py\n'}
+[8.460219] (-) TimerEvent: {}
+[8.561164] (-) TimerEvent: {}
+[8.620648] (uol_tidybot) StdoutLine: {'line': b'running install\n'}
+[8.623525] (uol_tidybot) StdoutLine: {'line': b'running install_lib\n'}
+[8.661260] (-) TimerEvent: {}
+[8.762377] (-) TimerEvent: {}
+[8.863517] (-) TimerEvent: {}
+[8.966737] (-) TimerEvent: {}
+[9.079923] (-) TimerEvent: {}
+[9.121969] (uol_tidybot) StdoutLine: {'line': b'running install_data\n'}
+[9.180043] (-) TimerEvent: {}
+[9.285875] (-) TimerEvent: {}
+[9.387406] (-) TimerEvent: {}
+[9.418288] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running install\n'}
+[9.420249] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running install_lib\n'}
+[9.487550] (-) TimerEvent: {}
+[9.588740] (-) TimerEvent: {}
+[9.691169] (-) TimerEvent: {}
+[9.792419] (-) TimerEvent: {}
+[9.896602] (-) TimerEvent: {}
+[9.932314] (uol_tidybot) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.954119] (uol_tidybot) StdoutLine: {'line': b"removing '/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages/uol_tidybot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.996752] (-) TimerEvent: {}
+[10.097843] (-) TimerEvent: {}
+[10.101220] (uol_tidybot) StdoutLine: {'line': b'Copying ../../build/uol_tidybot/uol_tidybot.egg-info to /workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages/uol_tidybot-0.0.0-py3.10.egg-info\n'}
+[10.197986] (-) TimerEvent: {}
+[10.299201] (-) TimerEvent: {}
+[10.405662] (-) TimerEvent: {}
+[10.507504] (-) TimerEvent: {}
+[10.609600] (-) TimerEvent: {}
+[10.710666] (-) TimerEvent: {}
+[10.813507] (-) TimerEvent: {}
+[10.914428] (-) TimerEvent: {}
+[10.990948] (uol_tidybot) StdoutLine: {'line': b'running install_scripts\n'}
+[11.014577] (-) TimerEvent: {}
+[11.115821] (-) TimerEvent: {}
+[11.168230] (uol_tidybot) StdoutLine: {'line': b'Installing generate_objects script to /workspaces/cmp3103/install/uol_tidybot/lib/uol_tidybot\n'}
+[11.200157] (uol_tidybot) StdoutLine: {'line': b'Installing spawn_patches script to /workspaces/cmp3103/install/uol_tidybot/lib/uol_tidybot\n'}
+[11.215984] (-) TimerEvent: {}
+[11.243708] (uol_tidybot) StdoutLine: {'line': b"writing list of installed files to '/workspaces/cmp3103/build/uol_tidybot/install.log'\n"}
+[11.285307] (uol_tidybot) CommandEnded: {'returncode': 0}
+[11.316112] (-) TimerEvent: {}
+[11.417853] (-) TimerEvent: {}
+[11.518773] (-) TimerEvent: {}
+[11.619892] (-) TimerEvent: {}
+[11.722111] (-) TimerEvent: {}
+[11.824001] (-) TimerEvent: {}
+[11.925330] (-) TimerEvent: {}
+[12.026942] (-) TimerEvent: {}
+[12.127918] (-) TimerEvent: {}
+[12.228831] (-) TimerEvent: {}
+[12.304230] (uol_tidybot) JobEnded: {'identifier': 'uol_tidybot', 'rc': 0}
+[12.319603] (uol_tidybot_control) JobStarted: {'identifier': 'uol_tidybot_control'}
+[12.328951] (-) TimerEvent: {}
+[12.433248] (-) TimerEvent: {}
+[12.463983] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running install_data\n'}
+[12.525570] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.533332] (-) TimerEvent: {}
+[12.559244] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b"removing '/workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[12.633478] (-) TimerEvent: {}
+[12.682082] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Copying ../../build/cmp3103m_ros2_code_fragments/cmp3103m_ros2_code_fragments.egg-info to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages/cmp3103m_ros2_code_fragments-0.0.1-py3.10.egg-info\n'}
+[12.733644] (-) TimerEvent: {}
+[12.836689] (-) TimerEvent: {}
+[12.937500] (-) TimerEvent: {}
+[13.038288] (-) TimerEvent: {}
+[13.139386] (-) TimerEvent: {}
+[13.240863] (-) TimerEvent: {}
+[13.341656] (-) TimerEvent: {}
+[13.442618] (-) TimerEvent: {}
+[13.530534] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'running install_scripts\n'}
+[13.543011] (-) TimerEvent: {}
+[13.643758] (-) TimerEvent: {}
+[13.744687] (-) TimerEvent: {}
+[13.813048] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing chat_receiver script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[13.844839] (-) TimerEvent: {}
+[13.891846] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing chat_sender script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[13.931348] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_center script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[13.944982] (-) TimerEvent: {}
+[13.992644] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_chaser script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.042013] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_contours script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.046107] (-) TimerEvent: {}
+[14.137172] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_mask script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.146253] (-) TimerEvent: {}
+[14.184148] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_mask2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.229352] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing colour_mover script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.246404] (-) TimerEvent: {}
+[14.255767] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing move_square script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.299373] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing opencv_bridge script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.323343] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing roamer script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.343232] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing task1 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.346512] (-) TimerEvent: {}
+[14.447502] (-) TimerEvent: {}
+[14.448820] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing task2 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.488646] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b'Installing task3 script to /workspaces/cmp3103/install/cmp3103m_ros2_code_fragments/lib/cmp3103m_ros2_code_fragments\n'}
+[14.544543] (cmp3103m_ros2_code_fragments) StdoutLine: {'line': b"writing list of installed files to '/workspaces/cmp3103/build/cmp3103m_ros2_code_fragments/install.log'\n"}
+[14.547578] (-) TimerEvent: {}
+[14.602273] (cmp3103m_ros2_code_fragments) CommandEnded: {'returncode': 0}
+[14.647696] (-) TimerEvent: {}
+[14.748657] (-) TimerEvent: {}
+[14.850357] (-) TimerEvent: {}
+[14.951198] (-) TimerEvent: {}
+[15.051816] (-) TimerEvent: {}
+[15.153116] (-) TimerEvent: {}
+[15.254174] (-) TimerEvent: {}
+[15.355283] (-) TimerEvent: {}
+[15.456418] (-) TimerEvent: {}
+[15.558403] (-) TimerEvent: {}
+[15.659293] (-) TimerEvent: {}
+[15.693441] (cmp3103m_ros2_code_fragments) JobEnded: {'identifier': 'cmp3103m_ros2_code_fragments', 'rc': 0}
+[15.759599] (-) TimerEvent: {}
+[15.860461] (-) TimerEvent: {}
+[15.961343] (-) TimerEvent: {}
+[16.067709] (-) TimerEvent: {}
+[16.169156] (-) TimerEvent: {}
+[16.270162] (-) TimerEvent: {}
+[16.371212] (-) TimerEvent: {}
+[16.476953] (-) TimerEvent: {}
+[16.578493] (-) TimerEvent: {}
+[16.679516] (-) TimerEvent: {}
+[16.780513] (-) TimerEvent: {}
+[16.881296] (-) TimerEvent: {}
+[16.981938] (-) TimerEvent: {}
+[17.082627] (-) TimerEvent: {}
+[17.183385] (-) TimerEvent: {}
+[17.284206] (-) TimerEvent: {}
+[17.385053] (-) TimerEvent: {}
+[17.486006] (-) TimerEvent: {}
+[17.586928] (-) TimerEvent: {}
+[17.687817] (-) TimerEvent: {}
+[17.791884] (-) TimerEvent: {}
+[17.893154] (-) TimerEvent: {}
+[18.004036] (-) TimerEvent: {}
+[18.104952] (-) TimerEvent: {}
+[18.205686] (-) TimerEvent: {}
+[18.306324] (-) TimerEvent: {}
+[18.407114] (-) TimerEvent: {}
+[18.507772] (-) TimerEvent: {}
+[18.608736] (-) TimerEvent: {}
+[18.710364] (-) TimerEvent: {}
+[18.811156] (-) TimerEvent: {}
+[18.912173] (-) TimerEvent: {}
+[19.013294] (-) TimerEvent: {}
+[19.114203] (-) TimerEvent: {}
+[19.215270] (-) TimerEvent: {}
+[19.316183] (-) TimerEvent: {}
+[19.417333] (-) TimerEvent: {}
+[19.518004] (-) TimerEvent: {}
+[19.626391] (-) TimerEvent: {}
+[19.727187] (-) TimerEvent: {}
+[19.833116] (-) TimerEvent: {}
+[19.939363] (-) TimerEvent: {}
+[20.040508] (-) TimerEvent: {}
+[20.148490] (-) TimerEvent: {}
+[20.259865] (-) TimerEvent: {}
+[20.264440] (uol_tidybot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uol_tidybot_control', 'build', '--build-base', '/workspaces/cmp3103/build/uol_tidybot_control/build', 'install', '--record', '/workspaces/cmp3103/build/uol_tidybot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/cmp3103/src/uol_tidybot_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VGL_ISACTIVE': '1', 'HOSTNAME': '1e71a5f4d966', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/lcas/install/limo_msgs/lib:/opt/ros/lcas/install/astra_camera/lib:/opt/ros/lcas/install/astra_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'ENTRY_POINT': '/opt/entrypoint.sh', 'HOME': '/home/ros', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-a46dde3b-2693-4323-b89c-a8ed63841fb8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-dde347d7-fdc8-436d-acba-7a3f13c9c2f7.sock', 'COLCON_PREFIX_PATH': '/opt/ros/lcas/install:/opt/ros/humble', 'ROS_DISTRO': 'humble', 'VGL_PROBEGLX': '0', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d5dae3ef-c973-465f-95e2-5b4c3390999a.sock', 'VGL_DISPLAY': 'egl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'NOVNC_VERSION': '1.4.0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/home/ros/.local/bin:/opt/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/tmp/user/1001', 'WEBSOCKETIFY_VERSION': '0.10.0', 'VGL_COMPRESS': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6dde4a0ff128ab64.txt', 'LD_PRELOAD': '/usr/lib/libdlfaker.so:/usr/lib/libvglfaker.so', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/ros/.vscode-server/data/User/workspaceStorage/5ae3141ce4ac4267d7d5d5340b6fcc7a/ms-python.python/pythonrc.py', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1001/vscode-git-103aa607e6.sock', 'TERM_PROGRAM': 'vscode', 'ROSDISTRO_INDEX_URL': 'https://raw.github.com/LCAS/rosdistro/master/index-v4.yaml', 'VGL_FPS': '25', 'AMENT_PREFIX_PATH': '/workspaces/cmp3103/install/uol_tidybot:/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/voice_control:/opt/ros/lcas/install/uol_tidybot_control:/opt/ros/lcas/install/uol_tidybot:/opt/ros/lcas/install/limo_speaker:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'ZENOH_BRIDGE_VERSION': '1.3.2', 'PWD': '/workspaces/cmp3103/build/uol_tidybot_control', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/workspaces/cmp3103/build/uol_tidybot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:/opt/ros/lcas/install/voice_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot_control/lib/python3.10/site-packages:/opt/ros/lcas/install/uol_tidybot/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_speaker/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_gazebosim/lib/python3.10/site-packages:/opt/ros/lcas/install/limo_msgs/lib/python3.10/site-packages:/opt/ros/lcas/install/cmp3103m_ros2_code_fragments/lib/python3.10/site-packages:/opt/ros/lcas/install/astra_camera_msgs/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'VGL_WM': '1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'TVNC_VGL': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lcas/install/ydlidar_ros2_driver:/opt/ros/lcas/install/limo_navigation:/opt/ros/lcas/install/limo_gazebosim:/opt/ros/lcas/install/limo_bringup:/opt/ros/lcas/install/limo_base:/opt/ros/lcas/install/limo_msgs:/opt/ros/lcas/install/limo_description:/opt/ros/lcas/install/astra_camera:/opt/ros/lcas/install/astra_camera_msgs'}, 'shell': False}
+[20.360023] (-) TimerEvent: {}
+[20.460980] (-) TimerEvent: {}
+[20.561971] (-) TimerEvent: {}
+[20.662756] (-) TimerEvent: {}
+[20.763473] (-) TimerEvent: {}
+[20.865350] (-) TimerEvent: {}
+[20.966033] (-) TimerEvent: {}
+[21.075138] (-) TimerEvent: {}
+[21.176316] (-) TimerEvent: {}
+[21.277375] (-) TimerEvent: {}
+[21.380564] (-) TimerEvent: {}
+[21.489369] (-) TimerEvent: {}
+[21.591018] (-) TimerEvent: {}
+[21.691741] (-) TimerEvent: {}
+[21.792417] (-) TimerEvent: {}
+[21.893254] (-) TimerEvent: {}
+[21.994142] (-) TimerEvent: {}
+[22.095002] (-) TimerEvent: {}
+[22.195886] (-) TimerEvent: {}
+[22.296917] (-) TimerEvent: {}
+[22.397964] (-) TimerEvent: {}
+[22.499402] (-) TimerEvent: {}
+[22.600714] (-) TimerEvent: {}
+[22.701813] (-) TimerEvent: {}
+[22.804671] (-) TimerEvent: {}
+[22.905487] (-) TimerEvent: {}
+[23.008891] (-) TimerEvent: {}
+[23.109788] (-) TimerEvent: {}
+[23.210894] (-) TimerEvent: {}
+[23.311673] (-) TimerEvent: {}
+[23.412750] (-) TimerEvent: {}
+[23.514017] (-) TimerEvent: {}
+[23.614832] (-) TimerEvent: {}
+[23.715766] (-) TimerEvent: {}
+[23.822979] (-) TimerEvent: {}
+[23.920861] (uol_tidybot_control) StdoutLine: {'line': b'running egg_info\n'}
+[23.923336] (-) TimerEvent: {}
+[23.936957] (uol_tidybot_control) StdoutLine: {'line': b'writing ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/PKG-INFO\n'}
+[23.974290] (uol_tidybot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/dependency_links.txt\n'}
+[23.999814] (uol_tidybot_control) StdoutLine: {'line': b'writing entry points to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/entry_points.txt\n'}
+[24.022301] (uol_tidybot_control) StdoutLine: {'line': b'writing requirements to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/requires.txt\n'}
+[24.025643] (-) TimerEvent: {}
+[24.055242] (uol_tidybot_control) StdoutLine: {'line': b'writing top-level names to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/top_level.txt\n'}
+[24.125816] (-) TimerEvent: {}
+[24.174970] (uol_tidybot_control) StdoutLine: {'line': b"reading manifest file '../../build/uol_tidybot_control/uol_tidybot_control.egg-info/SOURCES.txt'\n"}
+[24.225942] (-) TimerEvent: {}
+[24.327128] (-) TimerEvent: {}
+[24.400552] (uol_tidybot_control) StdoutLine: {'line': b"writing manifest file '../../build/uol_tidybot_control/uol_tidybot_control.egg-info/SOURCES.txt'\n"}
+[24.409946] (uol_tidybot_control) StdoutLine: {'line': b'running build\n'}
+[24.411826] (uol_tidybot_control) StdoutLine: {'line': b'running build_py\n'}
+[24.427213] (-) TimerEvent: {}
+[24.510694] (uol_tidybot_control) StdoutLine: {'line': b'running install\n'}
+[24.512745] (uol_tidybot_control) StdoutLine: {'line': b'running install_lib\n'}
+[24.527335] (-) TimerEvent: {}
+[24.632673] (-) TimerEvent: {}
+[24.739569] (-) TimerEvent: {}
+[24.794026] (uol_tidybot_control) StdoutLine: {'line': b'running install_data\n'}
+[24.839669] (-) TimerEvent: {}
+[24.849921] (uol_tidybot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.928865] (uol_tidybot_control) StdoutLine: {'line': b"removing '/workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages/uol_tidybot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[24.939801] (-) TimerEvent: {}
+[25.041186] (-) TimerEvent: {}
+[25.141878] (-) TimerEvent: {}
+[25.142803] (uol_tidybot_control) StdoutLine: {'line': b'Copying ../../build/uol_tidybot_control/uol_tidybot_control.egg-info to /workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages/uol_tidybot_control-0.0.0-py3.10.egg-info\n'}
+[25.242092] (-) TimerEvent: {}
+[25.343491] (-) TimerEvent: {}
+[25.444850] (-) TimerEvent: {}
+[25.545763] (-) TimerEvent: {}
+[25.646637] (-) TimerEvent: {}
+[25.747681] (-) TimerEvent: {}
+[25.848537] (-) TimerEvent: {}
+[25.949347] (-) TimerEvent: {}
+[26.050138] (-) TimerEvent: {}
+[26.066783] (uol_tidybot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[26.150370] (-) TimerEvent: {}
+[26.251277] (-) TimerEvent: {}
+[26.352187] (-) TimerEvent: {}
+[26.361439] (uol_tidybot_control) StdoutLine: {'line': b'Installing control_strategy script to /workspaces/cmp3103/install/uol_tidybot_control/lib/uol_tidybot_control\n'}
+[26.401659] (uol_tidybot_control) StdoutLine: {'line': b"writing list of installed files to '/workspaces/cmp3103/build/uol_tidybot_control/install.log'\n"}
+[26.449456] (uol_tidybot_control) CommandEnded: {'returncode': 0}
+[26.452256] (-) TimerEvent: {}
+[26.552981] (-) TimerEvent: {}
+[26.653909] (-) TimerEvent: {}
+[26.754629] (-) TimerEvent: {}
+[26.855965] (-) TimerEvent: {}
+[26.971440] (-) TimerEvent: {}
+[27.073479] (-) TimerEvent: {}
+[27.176455] (-) TimerEvent: {}
+[27.285192] (-) TimerEvent: {}
+[27.386972] (-) TimerEvent: {}
+[27.487753] (-) TimerEvent: {}
+[27.589235] (-) TimerEvent: {}
+[27.689880] (-) TimerEvent: {}
+[27.790913] (-) TimerEvent: {}
+[27.813569] (uol_tidybot_control) JobEnded: {'identifier': 'uol_tidybot_control', 'rc': 0}
+[27.851531] (-) EventReactorShutdown: {}

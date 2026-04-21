@@ -1,0 +1,22 @@
+[5.691s] Invoking command in '/workspaces/cmp3103/src/uol_tidybot': PYTHONPATH=/workspaces/cmp3103/build/uol_tidybot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uol_tidybot build --build-base /workspaces/cmp3103/build/uol_tidybot/build install --record /workspaces/cmp3103/build/uol_tidybot/install.log --single-version-externally-managed install_data
+[7.811s] running egg_info
+[7.819s] writing ../../build/uol_tidybot/uol_tidybot.egg-info/PKG-INFO
+[7.832s] writing dependency_links to ../../build/uol_tidybot/uol_tidybot.egg-info/dependency_links.txt
+[7.846s] writing entry points to ../../build/uol_tidybot/uol_tidybot.egg-info/entry_points.txt
+[7.855s] writing requirements to ../../build/uol_tidybot/uol_tidybot.egg-info/requires.txt
+[7.862s] writing top-level names to ../../build/uol_tidybot/uol_tidybot.egg-info/top_level.txt
+[8.112s] reading manifest file '../../build/uol_tidybot/uol_tidybot.egg-info/SOURCES.txt'
+[8.426s] writing manifest file '../../build/uol_tidybot/uol_tidybot.egg-info/SOURCES.txt'
+[8.438s] running build
+[8.440s] running build_py
+[8.610s] running install
+[8.613s] running install_lib
+[9.111s] running install_data
+[9.921s] running install_egg_info
+[9.943s] removing '/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages/uol_tidybot-0.0.0-py3.10.egg-info' (and everything under it)
+[10.091s] Copying ../../build/uol_tidybot/uol_tidybot.egg-info to /workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages/uol_tidybot-0.0.0-py3.10.egg-info
+[10.980s] running install_scripts
+[11.159s] Installing generate_objects script to /workspaces/cmp3103/install/uol_tidybot/lib/uol_tidybot
+[11.189s] Installing spawn_patches script to /workspaces/cmp3103/install/uol_tidybot/lib/uol_tidybot
+[11.233s] writing list of installed files to '/workspaces/cmp3103/build/uol_tidybot/install.log'
+[11.274s] Invoked command in '/workspaces/cmp3103/src/uol_tidybot' returned '0': PYTHONPATH=/workspaces/cmp3103/build/uol_tidybot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uol_tidybot build --build-base /workspaces/cmp3103/build/uol_tidybot/build install --record /workspaces/cmp3103/build/uol_tidybot/install.log --single-version-externally-managed install_data

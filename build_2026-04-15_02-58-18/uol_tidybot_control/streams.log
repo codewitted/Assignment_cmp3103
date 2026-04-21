@@ -1,0 +1,21 @@
+[8.019s] Invoking command in '/workspaces/cmp3103/src/uol_tidybot_control': AMENT_PREFIX_PATH=/workspaces/cmp3103/install/uol_tidybot:${AMENT_PREFIX_PATH} PYTHONPATH=/workspaces/cmp3103/build/uol_tidybot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uol_tidybot_control build --build-base /workspaces/cmp3103/build/uol_tidybot_control/build install --record /workspaces/cmp3103/build/uol_tidybot_control/install.log --single-version-externally-managed install_data
+[11.603s] running egg_info
+[11.619s] writing ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/PKG-INFO
+[11.656s] writing dependency_links to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/dependency_links.txt
+[11.682s] writing entry points to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/entry_points.txt
+[11.705s] writing requirements to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/requires.txt
+[11.738s] writing top-level names to ../../build/uol_tidybot_control/uol_tidybot_control.egg-info/top_level.txt
+[11.857s] reading manifest file '../../build/uol_tidybot_control/uol_tidybot_control.egg-info/SOURCES.txt'
+[12.083s] writing manifest file '../../build/uol_tidybot_control/uol_tidybot_control.egg-info/SOURCES.txt'
+[12.091s] running build
+[12.093s] running build_py
+[12.192s] running install
+[12.194s] running install_lib
+[12.475s] running install_data
+[12.531s] running install_egg_info
+[12.611s] removing '/workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages/uol_tidybot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[12.824s] Copying ../../build/uol_tidybot_control/uol_tidybot_control.egg-info to /workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages/uol_tidybot_control-0.0.0-py3.10.egg-info
+[13.748s] running install_scripts
+[14.043s] Installing control_strategy script to /workspaces/cmp3103/install/uol_tidybot_control/lib/uol_tidybot_control
+[14.084s] writing list of installed files to '/workspaces/cmp3103/build/uol_tidybot_control/install.log'
+[14.131s] Invoked command in '/workspaces/cmp3103/src/uol_tidybot_control' returned '0': AMENT_PREFIX_PATH=/workspaces/cmp3103/install/uol_tidybot:${AMENT_PREFIX_PATH} PYTHONPATH=/workspaces/cmp3103/build/uol_tidybot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/cmp3103/install/uol_tidybot_control/lib/python3.10/site-packages:/workspaces/cmp3103/install/uol_tidybot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uol_tidybot_control build --build-base /workspaces/cmp3103/build/uol_tidybot_control/build install --record /workspaces/cmp3103/build/uol_tidybot_control/install.log --single-version-externally-managed install_data
