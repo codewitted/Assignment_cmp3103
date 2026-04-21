@@ -1,0 +1,16 @@
+[console_scripts]
+chat_receiver = cmp3103m_ros2_code_fragments.chat_receiver:main
+chat_sender = cmp3103m_ros2_code_fragments.chat_sender:main
+colour_center = cmp3103m_ros2_code_fragments.colour_center:main
+colour_chaser = cmp3103m_ros2_code_fragments.colour_chaser:main
+colour_contours = cmp3103m_ros2_code_fragments.colour_contours:main
+colour_mask = cmp3103m_ros2_code_fragments.colour_mask:main
+colour_mask2 = cmp3103m_ros2_code_fragments.colour_mask2:main
+colour_mover = cmp3103m_ros2_code_fragments.colour_mover:main
+move_square = cmp3103m_ros2_code_fragments.move_square:main
+opencv_bridge = cmp3103m_ros2_code_fragments.opencv_bridge:main
+roamer = cmp3103m_ros2_code_fragments.roamer:main
+task1 = cmp3103m_ros2_code_fragments.task1:main
+task2 = cmp3103m_ros2_code_fragments.task2:main
+task3 = cmp3103m_ros2_code_fragments.task3:main
+
