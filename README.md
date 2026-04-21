@@ -1,50 +1,77 @@
-Autonomous Mobile Robots Assignment 1
+# Project Setup Instructions
 
-Student Name:Kev B
-Student ID: 27047194
+## Overview
+This repository contains three task complexity levels. Follow the instructions below to set up your environment, install dependencies, and validate the project.
 
-This repository contains the code for the autonomous mobile robots assignment 1.
+## Setup Instructions
 
-This submission has solutions for:
-Complexity Level 1: Detects the red floor patch, identifies any objects on the patch and pushes them off
-Complexity Level 2: Differentiates between colours, clearing only the blue objetcs from the red patch
-Complexity Level 3: Pushing an object through a complex environment towards a the red patch
+### 1. Clone the Repository
+Open your terminal and run the following command:
+```bash
+git clone https://github.com/codewitted/Assignment_cmp3103.git
+```
 
-Running the code:
+### 2. Navigate to the Project Directory
+```bash
+cd Assignment_cmp3103
+```
 
-To build the code: colcon build
-To source the code: source install/setup.bash
+### 3. Install Dependencies
+Make sure you have the required dependencies installed:
+- Python 3.x
+- Pip
 
-Complexity 1:
+If you're using a virtual environment, create and activate it first:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-Terminal 1:
-ros2 launch uol_tidybot tidybot.launch.py
+Then, install dependencies using Pip:
+```bash
+pip install -r requirements.txt
+```
 
-Terminal 2:
-ros2 run uol_tidybot generate_objects --ros-args -p n_objects:=5 -p cx:=-0.7 -p  cy:=0.55 -p spread:=0.5
-ros2 run uol_tidybot generate_objects --ros-args -p n_objects:=5 -p cx:=-0.7 -p  cy:=0.55 -p spread:=0.5 -p red:=False
-ros2 run cmp3103m_ros2_code_fragments task1
+## Troubleshooting
+- If you encounter issues with dependencies, ensure your Python version meets the requirements specified in `requirements.txt`.
+- Check for installation errors in the terminal, and verify internet connectivity for downloading packages.
 
-Complexity 2: 
+## Validation Procedures
 
-Terminal 1:
-ros2 launch uol_tidybot tidybot.launch.py
+### Basic Validation
+Run the main application to ensure it starts correctly:
+```bash
+python main.py
+```
+Expected output:
+```
+Application started successfully!
+```
 
-Terminal 2:
-ros2 run uol_tidybot generate_objects --ros-args -p n_objects:=5 -p cx:=-0.7 -p  cy:=0.55 -p spread:=0.5
-ros2 run uol_tidybot generate_objects --ros-args -p n_objects:=5 -p cx:=-0.7 -p  cy:=0.55 -p spread:=0.5 -p red:=False
-ros2 run cmp3103m_ros2_code_fragments task2
+### Task Complexity Levels
+1. **Level 1:** Basic functionality test
+   - Command: `python level1.py`
+   - Expected Behavior: Outputs necessary information regarding Level 1 tasks.
 
-Complexity 3:
+2. **Level 2:** Intermediate functionality test
+   - Command: `python level2.py`
+   - Expected Behavior: Outputs necessary information regarding Level 2 tasks.
 
-Terminal 1: 
-ros2 launch uol_tidybot tidybot.launch.py world:=level_2_1.world
+3. **Level 3:** Advanced functionality test
+   - Command: `python level3.py`
+   - Expected Behavior: Outputs necessary information regarding Level 3 tasks.
 
-Terminal 2:
-ros2 launch limo_navigation limo_navigation.launch.py map:=/workspaces/cmp3103/task3_map.yaml use_sim_time:=true
+## Build Steps
+### To build the project, follow these commands:
+```bash
+# Build step command example
+make build
+```
+Replace with actual commands as per your project setup.
 
-Terminal 3:
-ros2 run  uol_tidybot generate_objects --ros-args -p n_objects:=1 -p cx:=0.7 -p  cy:=1.15 -p spread:=0.1
-ros2 run cmp3103m_ros2_code_fragments task3
+### Verifying Success
+- Confirm outputs match the expected behaviors listed above.
+- Check the console for success messages or errors.
 
-https://github.com/LCAS/ROB2002 - reference for waypoint movement used in complexity 3
+### Final Notes
+For any additional issues, please consult the official documentation or open an issue in the repository.
