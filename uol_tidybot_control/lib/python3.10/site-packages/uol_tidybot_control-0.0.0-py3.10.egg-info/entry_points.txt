@@ -1,0 +1,3 @@
+[console_scripts]
+control_strategy = uol_tidybot_control.robot_control_strategy:main
+
