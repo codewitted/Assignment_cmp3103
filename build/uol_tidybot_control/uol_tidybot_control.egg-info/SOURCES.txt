@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/PKG-INFO
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/SOURCES.txt
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/dependency_links.txt
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/entry_points.txt
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/requires.txt
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/top_level.txt
+../../build/uol_tidybot_control/uol_tidybot_control.egg-info/zip-safe
+resource/uol_tidybot_control
+uol_tidybot_control/__init__.py
+uol_tidybot_control/robot_control_strategy.py
