@@ -1,7 +1,7 @@
 Autonomous Mobile Robots Assignment 1
 
-Student Name: Benjamin Stuart
-Student ID: 27517192
+Student Name:Kev B
+Student ID: 27047194
 
 This repository contains the code for the autonomous mobile robots assignment 1.
 
